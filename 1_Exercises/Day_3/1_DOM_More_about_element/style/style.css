@@ -1,0 +1,56 @@
+.exercise {
+    border-bottom: black 2px solid;
+}
+
+.ex1 .chrome {
+    background-size: contain;
+    background-image: url("../assets/img/chrome.png");
+    width: 10px;
+    height: 100px;
+}
+
+.ex1 .firefox {
+    background-size: contain;
+    background-image: url("../assets/img/edge.png");
+    width: 100px;
+    height: 100px;
+}
+
+.ex1 .edge {
+    background-size: contain;
+    background-image: url("../assets/img/firefox.png");
+    width: 100px;
+    height: 100px;
+}
+
+.ex2 li {
+    list-style: none;
+}
+
+.ex3 ul {
+    padding: 0;
+}
+
+.ex3 .menu {
+    list-style: none;
+    width: 100%;
+}
+
+.ex3 .menuElement {
+    display: inline-block;
+    position: relative;
+}
+
+.ex3 .menuElement.error {
+    background-color: red;
+}
+
+.ex3 .menuElement.selected {
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.75);
+}
+
+.ex5 .big {
+    font-size: 24px;
+}

@@ -1,0 +1,35 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: black 2px solid;
+    margin: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+
+}
+
+.button {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 25px;
+    background: #3498db;
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 0px auto;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+.listContainer {
+    border-radius: 5px;
+    border: black 2px solid;
+    margin: 20px;
+}
